@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "f779f0c3-74ab-4b95-b7e2-ae00c4003fb9",
+		"name": "Garage",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23931383"
+	},
+	"item": [
+		{
+			"name": "addCar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reqNumber\": \"qwerty\",\r\n    \"model\": \"Y\",\r\n    \"company\": \"Tesla\",\r\n    \"engine\": 0.0,\r\n    \"color\": \"white\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/garage/addCar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"garage",
+						"addCar"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
